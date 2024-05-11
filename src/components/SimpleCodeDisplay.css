@@ -1,0 +1,25 @@
+.simple-code-display {
+    background-color: #00203F;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Monaco';
+    color: #ADEFD1;
+    white-space: pre-wrap; /* Maintains whitespace formatting */
+}
+
+.simple-response-display {
+    background-color: #00203F;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Monaco';
+    color: #96e8eb;
+    white-space: pre-wrap; /* Maintains whitespace formatting */
+}
+
+.simple-response-display p {
+    margin: 0rem;
+}
+
+.simple-code-display p {
+    margin: 0rem;
+}
