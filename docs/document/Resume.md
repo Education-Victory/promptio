@@ -3,7 +3,6 @@ sidebar_position: 10
 ---
 
 import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 # Resume
 
