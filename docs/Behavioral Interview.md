@@ -94,6 +94,7 @@ XYZ Inc., Software Engineering Intern
 - Assisted in the integration of third-party services and APIs which extended system functionalities and improved response time by 50%.
 
 """
+<br />
 
 Here is a software engineer interview question:
 
