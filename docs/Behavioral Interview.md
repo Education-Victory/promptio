@@ -42,7 +42,7 @@ Provide me with 5 behavioral interview questions for a software engineering posi
 """
 </SimpleCodeDisplay>
 
-<button class="btn" onClick={() => window.open('', '_blank')}>
+<button class="btn" onClick={() => window.open('https://platform.openai.com/playground/chat?preset=preset-sn0DMxPF1xVVqExu8BifzEX3', '_blank')}>
     Open in Playground <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
 </button>
 
@@ -108,13 +108,14 @@ Here is my answer:
 Requirements:
 
 1. Target company is Google LLC
-2. Review my answer, based on:
+2. Review my answer, tell me where I can improve based on these five points:
     - Specificity: Does the answer provide specific examples from the candidate’s past experiences? Specific details help illustrate the candidate's skills and how they handle situations relevant to the position.
     - Relevance: Is the example or story shared relevant to the question asked? The response should directly address the question and show how the candidate's experience is applicable to the job they are applying for.
     - Structure: Does the answer follow a clear and logical structure? Common frameworks like STAR (Situation, Task, Action, Result) or CAR (Context, Action, Result) help in organizing the response clearly and concisely.
     - Clarity: Is the answer clear and easy to understand? It should be articulated well without unnecessary jargon or overly complex descriptions.
     - Outcome: Does the candidate clearly describe the outcome or result of their actions? It’s important that they highlight the impact of their decisions and actions, showing their contribution to a positive outcome.
 3. Your example answer should use STAR method based on my experience, action and result should be detail and use bullet points
+4. Response use plain text 
 
 ---
 
@@ -122,46 +123,51 @@ Action
 
 """
 1. Review my answer and tell me which specific sentence needs improvement. 
-2. Give me an example answer.
+2. Give me an example answer use plain text format
 """
 </SimpleCodeDisplay>
 
-<button class="btn" onClick={() => window.open('', '_blank')}>
+<button class="btn" onClick={() => window.open('https://platform.openai.com/playground/chat?preset=preset-ZCahWnzFlSa7xmgDPtR3z2Yo', '_blank')}>
     Open in Playground <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
 </button>
 
 ### Response From AI Coach
 
 <SimpleCodeDisplay type="response">
-Your response provides a good foundation but could be improved in terms of structure and clarity to better align with the STAR method. Here are some specific sentences and aspects that need refinement:
+Your answer provides a good foundation for illustrating your ability to optimize software functionality, but let us improve it based on the five key points:
+- Specificity: Your answer mentions using Grafana and Datadog, and creating composite indexes, which are great specific details. However, it could further benefit from mentioning specifically what the queries were before and how they were optimized (if possible without disclosing sensitive information). 
+- Relevance: You directly address the decrease in data processing time, which is relevant to the question asked. Ensuring you keep the focus on this specific optimization throughout the response will maintain its relevance.
+- Structure: Your answer can be rearranged to follow the STAR (Situation, Task, Action, Result) structure more clearly. This will help in organizing the information in a clearer, more logical format.
+- Clarity: The response is relatively clear but using technical terms like "composite indexes" could be briefly explained to make sure all interviewers (who might not all be technical) can understand.
+- Outcome: You mention the decreased API response time by 30%, which is great. Expanding slightly on how this improvement impacted the end-user or the business would make this even stronger.
 
-- Introduction of the situation: Your answer jumps directly into the tools used (Grafana and Datadog) but doesn't set up the situation adequately for someone unfamiliar with the context. It would be beneficial to briefly describe the project or system you were working on.
-- Specificity in actions: While you mention analyzing API response times and database queries, the steps between identifying the problem and implementing the solution could be more detailed. This will showcase your problem-solving process more clearly.
-- Linking actions directly to results: The connection between your actions (modifying code and creating indexes) and the specific outcome (30% decrease in processing time) could be more explicitly stated to highlight the direct impact of your interventions.
-
-Example Answer Using the STAR Method
+**Example Answer Using STAR Method**
 <br />
 
-**Situation:**
-During my internship at XYZ Inc., I was assigned to a project focused on optimizing our core financial processing system which was experiencing slow data processing times, affecting overall application performance.
-
---- 
-**Task:**
-My primary goal was to identify and eliminate bottlenecks in our system to enhance the processing speed.
-
---- 
-
-**Action:**
-- Analyzed System Performance: Utilized monitoring tools like Grafana and Datadog to track and analyze API response times, identifying critical performance bottlenecks.
-- Optimized Database Interactions: Noticed redundant database queries within several APIs. I refactored the code to eliminate these redundancies, significantly reducing unnecessary database load.
-- Enhanced Database Efficiency: Further analysis revealed that specific queries were slow due to lack of proper indexing. I proposed and designed composite indexes for two major tables after a detailed discussion with my team and manager on the potential impacts.
-- Implemented and Monitored Changes: Deployed the changes in a controlled environment to monitor the effects on performance, ensuring stability and efficiency gains without side effects.
+Situation:
+During my internship at XYZ Inc., I was responsible for optimizing RESTful services developed in Java using the Spring Framework. Our team noticed that certain services were experiencing slow response times, impacting overall application performance.
 
 ---
-**Result:**
-- These optimizations led to a 30% decrease in data processing time, enhancing the overall responsiveness of our application. This improvement not only boosted system performance but also contributed to a better user experience, as reflected in subsequent user feedback and reduced complaint rates.
 
-This revised answer provides a clear, structured response that aligns with the STAR method, detailing your role and the impact of your actions in a concise manner.
+Task:
+My task was to identify the causes of these delays and implement solutions to improve data processing times.
+
+---
+
+Action: Here’s how I approached the issue:
+- **Analysis with Tools**: I utilized Grafana and Datadog to monitor and analyze API response times, which helped identify bottlenecks.
+- **Code Evaluation**: On reviewing the code, I noticed redundant queries to the database. I optimized these queries to reduce unnecessary data processing.
+- **Database Optimization**: Further analysis revealed that the execution of database queries could be enhanced by introducing composite indexes. After consulting with my team lead, we decided to apply composite indexes on two critical tables.
+- **Collaboration and Testing**: I worked closely with the database management team to implement these changes and conducted thorough testing to ensure these modifications did not disrupt existing functionalities.
+
+---
+
+Result:
+These optimizations led to a significant improvement in performance, reducing the data processing time by 30%. This enhancement not only accelerated the response time of our services but also improved the overall user experience, leading to less reported issues and higher satisfaction ratings from the end-users.
+
+---
+
+This response clearly lays out the situation at hand, what task you were charged with, the specific actions you took to address the issue, and the beneficial results of those actions, all while keeping the discourse clear and easy to follow.
 
 </SimpleCodeDisplay>
 
@@ -220,6 +226,10 @@ Action
 Give me 5 follow up questions based on my answer
 """
 </SimpleCodeDisplay>
+
+<button class="btn" onClick={() => window.open('https://platform.openai.com/playground/chat?models=gpt-4-turbo&preset=preset-p8sDBcutNwxyX97DXZAQL4On', '_blank')}>
+    Open in Playground <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+</button>
 
 
 ### Response From AI Coach
