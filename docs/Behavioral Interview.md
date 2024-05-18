@@ -98,9 +98,15 @@ XYZ Inc., Software Engineering Intern
 
 Here is a software engineer interview question:
 
+<br />
+
 "Can you describe a time when you successfully optimized a software process or functionality? Specifically, how did you manage to achieve a 30% decrease in data processing time in one of your projects?"
 
+<br />
+
 Here is my answer:
+
+<br />
 
 "No problem. During my internship at this company, I used Grafana and Datadog to analyze API response time bottlenecks. I discovered that the code was redundantly querying some database tables in the API. By modifying the code, I reduced the database query time. Additionally, I analyzed the efficiency of the database queries and found that creating composite indexes could speed up the queries. After discussing the solution with my manager, we established composite indexes on two tables, which ultimately decrease the API response time by 30%."
 
