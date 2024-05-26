@@ -26,7 +26,7 @@ Here are five steps to use AI Coach to improve your resume:
     - Repeat the previous steps as necessary to refine and improve your resume based on feedback and additional insights.
 
 
-## Step 1. Create a basic version
+## 1. Create a basic version
 
 If you don't have a resume yet, you can describe your background and let the AI Coach create a basic version for you. The more specific the information you provide, the more likely it is that the AI-generated content will match your actual situation. If you already have a resume, you can skip the step 1.
 
@@ -134,7 +134,7 @@ Honors:
 If you don't have project experience, you can choose some projects from [Free Project Course](https://github.com/resumejob/free-project-course/) or [Build your own X](https://github.com/codecrafters-io/build-your-own-x).
 :::
 
-## Step 2. Match your situation
+## 2. Match your situation
 
 The details of work experience and projects may not accurately reflect your actual situation. At this point, you can:
 1. **Generate more entries:** Ask the AI Coach to generate more entries (for example, 10 entries instead of 5) and then select the ones that match your situation. 
@@ -190,7 +190,7 @@ XYZ Inc., Software Engineering Intern
 
 </SimpleCodeDisplay>
 
-## Step 3. Add numbers and metrics
+## 3. Add numbers and metrics
 By adding data or metrics, you can highlight your work on the project and increase its impressiveness.
 
 ### Prompt
@@ -272,7 +272,7 @@ YouTube-like Application (Java, Spring, Redis)
 Please choose the examples that best fit your actual situation.
 :::
 
-## Step 4. Match job requirements
+## 4. Match job requirements
 
 For companies you're particularly interested in, edit your resume based on their job responsibilities and requirements to increase your chances of getting an interview.
 
@@ -451,6 +451,6 @@ Modifications Made:
 These modifications ensure that the resume directly reflects the qualifications and responsibilities outlined in the job description, making it clear that the candidate is well-suited for the position.
 </SimpleCodeDisplay>
 
-## Step 5. Review and iterate
+## 5. Review and iterate
 
 Next, you can repeat the steps from 2 to 4, let the AI Coach review your resume and suggest revisions.

@@ -5,9 +5,23 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 # Algorithm Practice: Understand
 
+## Summary
+
+Here are three steps to use AI Coach to practice algorithm problem understanding:
+
+1. Write down key points
+    - Make sure you understand the problem
+    - Focus on the key points
+2. Identifying Constraints
+    - Understanding constraints helps to classify the problem
+    - Use constraints to find out test cases, particularly for handling edge cases.
+3. Write down testcases:
+    - Validate the correctness of your solution
+    - Ensure coverage of both general case and edge cases
+
 When practicing algorithms, you can first practice understanding the questions
 
-## Step 1. Write down key points
+## 1. Write down key points
 You can write down the key points of the question when you are reading the question. With this prompt, You can compare your key points with those recorded by the AI Coach to see if you have missed any important aspects.
 
 
@@ -73,7 +87,7 @@ Your key points effectively summarize the main requirements of the problem: find
 These additions would provide a more rounded understanding of the problem constraints and expected results.
 </SimpleCodeDisplay>
 
-## Step 2. Find potential constraints
+## 2. Identifying constraints
 
 Based on the problem and its input/output, write down the potential constraints. For example, if the input is an array of integers, you might want to know if there are any duplicate elements in the array and the range of the numbers."
 
@@ -137,7 +151,7 @@ Additional points I included:
 Your constraints are well-identified and cover the main issues that would affect the implementation of a solution for the problem. My additional points emphasize some operational rules and guarantees provided by the problem description, which help in streamlining the solution approach.
 </SimpleCodeDisplay>
 
-## Step 3. Write down testcases
+## 3. Write down testcases
 
 Writing test cases can help you understand/analyze the problem and later test the code.
 

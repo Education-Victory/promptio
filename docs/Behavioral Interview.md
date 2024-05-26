@@ -6,7 +6,7 @@ import SimpleCodeDisplay from '../src/components/SimpleCodeDisplay';
 
 # Behavioral Interview
 
-## Step 1. Generate interview questions
+## 1. Generate interview questions
 
 You can choose one of the experiences or projects on the resume and your target company, then generate some behavioral interview questions.
 
@@ -56,7 +56,7 @@ Given your experience at XYZ Inc. and targeting a position at Google LLC, here a
 </SimpleCodeDisplay>
 
 
-## Step 2. Review and example answer
+## 2. Review and example answer
 
 Now you can try answering the above questions, and let the AI coach review your answers and provide example responses.
 
@@ -140,7 +140,7 @@ This response clearly lays out the situation at hand, what task you were charged
 
 </SimpleCodeDisplay>
 
-## Step 3. Dive deep and iterate
+## 3. Dive deep and iterate
 
 Next, you can let the AI Coach provide some follow-up questions based on your answers.
 

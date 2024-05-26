@@ -6,7 +6,7 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 # Cover Letter
 
-## Step 1. Create a basic version
+## 1. Create a basic version
 
 You can describe your background and let the AI Coach create a basic version for you. The more specific the information you provide, the more likely it is that the AI-generated content will match your actual situation. You can use the keywords at [ChatGPT3-Free-Prompt-List](https://github.com/mattnigh/ChatGPT3-Free-Prompt-List#prompt-refinement-fixing-soulless-writing) like use vivid language or use a mix of the writing styles of [name of several your favorite writers or editors] to `Fix Soulless Writing` problem. In this example we use `Adding sensory details and descriptive language to bring it to life and engage the reader`.
 
@@ -61,7 +61,7 @@ Warmest regards,
 John Doe
 </SimpleCodeDisplay>
 
-## Step 2. Match job requirements
+## 2. Match job requirements
 
 After that, we can edit the cover letter based on the job qualifications and job responsibilities. 
 
