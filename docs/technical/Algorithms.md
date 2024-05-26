@@ -137,8 +137,10 @@ Additional points I included:
 Your constraints are well-identified and cover the main issues that would affect the implementation of a solution for the problem. My additional points emphasize some operational rules and guarantees provided by the problem description, which help in streamlining the solution approach.
 </SimpleCodeDisplay>
 
-## Step 3. Create general testcases and edge testcases
-Creating testcases by yourself can help you to make sure you are fully understanding the question.
+## Step 3. Write down testcases
+
+Writing test cases can help you understand/analyze the problem and later test the code.
+
 ### Prompt
 
 <SimpleCodeDisplay type="code">
