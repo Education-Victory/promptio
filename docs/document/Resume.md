@@ -10,19 +10,19 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 Here are five steps to use AI Coach to improve your resume:
 
-1. Create a Basic Version
+1. **Create a Basic Version**
     - If you do not have a resume, provide your background information to the AI Coach to generate a basic resume.
     - Include specific details like education, work experience, and projects to ensure accuracy in the AI-generated content.
-2. Match Your Situation
+2. **Match Your Situation**
     - Review the details in the generated resume, especially work experience and projects.
     - Generate additional entries if necessary to better reflect your actual experiences.
     - Add more specific details to the descriptions of your work experiences and projects to enhance relevance and accuracy.
-3. Add Numbers and Metrics
+3. **Add Numbers and Metrics**
     - Add data and metrics into your resume to highlight the impact and effectiveness of your work.
-4. Match Job Requirements
+4. **Match Job Requirements**
     - Modify your resume to align with the specific requirements and responsibilities of the job you are applying for.
     - Adjust skills, experiences, and project details to closely match the job description, ensuring that your resume demonstrates your suitability for the position.
-5. Review and Iterate
+5. **Review and Iterate**
     - Repeat the previous steps as necessary to refine and improve your resume based on feedback and additional insights.
 
 

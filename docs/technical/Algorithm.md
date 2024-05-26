@@ -9,13 +9,13 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 Here are three steps to use AI Coach to practice algorithm problem understanding:
 
-1. Write down key points
+1. **Write down key points**
     - Make sure you understand the problem
     - Focus on the key points
-2. Identifying Constraints
+2. **Identifying Constraints**
     - Understanding constraints helps to classify the problem
     - Use constraints to find out test cases, particularly for handling edge cases.
-3. Write down testcases:
+3. **Write down testcases**
     - Validate the correctness of your solution
     - Ensure coverage of both general case and edge cases
 
