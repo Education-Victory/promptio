@@ -23,3 +23,7 @@
 .simple-code-display p {
     margin: 0rem;
 }
+
+blockquote {
+    color: #f4f9ff;
+}
