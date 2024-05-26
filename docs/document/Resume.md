@@ -6,9 +6,36 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 # Resume
 
+## Summary
+
+Here are five steps to use AI Coach to improve your resume:
+
+#### Step 1: Create a Basic Version
+- If you do not have a resume, provide your background information to the AI Coach to generate a basic resume.
+- Include specific details like education, work experience, and projects to ensure accuracy in the AI-generated content.
+- If you already have a resume, you can skip this step.
+
+#### Step 2: Match Your Situation
+- Review the details in the generated resume, especially work experience and projects.
+- Generate additional entries if necessary to better reflect your actual experiences.
+- Add more specific details to the descriptions of your work experiences and projects to enhance relevance and accuracy.
+
+#### Step 3: Add Numbers and Metrics
+- Incorporate quantitative data and metrics into your resume to highlight the impact and effectiveness of your work.
+- Examples include improvements in performance, reductions in processing time, or increases in user engagement.
+
+#### Step 4: Match Job Requirements
+- Modify your resume to align with the specific requirements and responsibilities of the job you are applying for.
+- Adjust skills, experiences, and project details to closely match the job description, ensuring that your resume demonstrates your suitability for the position.
+
+#### Step 5: Review and Iterate
+- Use the AI Coach to review your updated resume and suggest further revisions.
+- Repeat the previous steps as necessary to refine and improve your resume based on feedback and additional insights.
+
+
 ## Step 1. Create a basic version
 
-If you don't have a resume yet, you can  describe your background and let the AI Coach create a basic version for you. The more specific the information you provide, the more likely it is that the AI-generated content will match your actual situation. If you already have a resume, you can skip the step 1.
+If you don't have a resume yet, you can describe your background and let the AI Coach create a basic version for you. The more specific the information you provide, the more likely it is that the AI-generated content will match your actual situation. If you already have a resume, you can skip the step 1.
 
 ### Prompt
 
