@@ -4,7 +4,7 @@ sidebar_position: 50
 
 import SimpleCodeDisplay from '../src/components/SimpleCodeDisplay';
 
-# Behavioral Interview (Mock)
+# Behavioral Interview
 
 ## Step 1. Generate interview questions
 

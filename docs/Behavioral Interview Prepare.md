@@ -5,7 +5,7 @@ draft: true
 
 import SimpleCodeDisplay from '../src/components/SimpleCodeDisplay';
 
-# Behavioral Interview (Prepare)
+# Behavioral Practice
 
 Here is the workflow to answer behavioral question:
 
