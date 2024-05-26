@@ -4,7 +4,7 @@ draft: true
 ---
 import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
-# Algorithms (Practice: Part 2)
+# Algorithms Practice: Analyze
 
 ## Step 1. Write down the possible tags for the question
 This is the important part of the coding. A wrong tag may guild you to a wrong direction.

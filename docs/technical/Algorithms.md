@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
-# Algorithms (Practice: Understand)
+# Algorithms Practice: Understand
 
 When practicing algorithms, you can first practice understanding the questions
 
