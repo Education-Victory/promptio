@@ -1,6 +1,5 @@
 ---
 sidebar_position: 15
-draft: true
 ---
 import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
