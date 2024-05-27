@@ -19,10 +19,10 @@ Here are three steps to use AI Coach to practice algorithm problem understanding
     - Validate the correctness of your solution
     - Ensure coverage of both general case and edge cases
 
-When practicing algorithms, you can first practice understanding the questions
+When practicing algorithms, you can first practice understanding the problem
 
 ## 1. Write down key points
-You can write down the key points of the question when you are reading the question. With this prompt, You can compare your key points with those recorded by the AI Coach to see if you have missed any important aspects.
+You can write down the key points of the problem when you are reading the problem. With this prompt, You can compare your key points with those recorded by the AI Coach to see if you have missed any important aspects.
 
 
 ### Prompt
@@ -49,7 +49,7 @@ Requirements:
 """
 
 - The key points you provide should not more than five, and each should not be more than 10 words long.
-- The key points you provide should be based solely on the textual description of the question, without excessive speculation.
+- The key points you provide should be based solely on the textual description of the problem, without excessive speculation.
 
 """
 
@@ -59,7 +59,7 @@ Action:
 <br />
 """
 
-- Ignore the key points I've provided. Instead, through reading the question, try to list its key points, which can help you understand the question and identify potential test cases.
+- Ignore the key points I've provided. Instead, through reading the problem, try to list its key points, which can help you understand the problem and identify potential test cases.
 - Compare the differences between your key points and mine. Point out my mistakes or the key points I'm missing.
 
 """
@@ -118,7 +118,7 @@ Action:
 
 """
 
-- Ignore the constraints I've provided. Instead, through reading the question, try to list potential constraints. For example, the input array may contain duplicate elements.
+- Ignore the constraints I've provided. Instead, through reading the problem, try to list potential constraints. For example, the input array may contain duplicate elements.
 - Compare the differences between your constraints and mine. Point out my mistakes or where I'm missing.
 
 """
@@ -139,7 +139,7 @@ Comparison with Your Constraints, your constraints:
 - The input array is not sorted.
 - The range of elements in the array could be very large.
 
-These constraints align very well with the constraints I derived from the question. Here’s a detailed comparison:
+These constraints align very well with the constraints I derived from the problem. Here’s a detailed comparison:
 - "Input array may contain duplicate elements": Both your constraints and mine acknowledge this, which is important because it affects how the solution handles potential repeats in the array when searching for the pair that sums to the target.
 - "Input array is not sorted": We both noted this constraint, which is crucial for determining the type of algorithm that might be most efficient, as sorting the array could be an option but is not a requirement.
 - "The range of elements in the array could be very large": This is an important consideration for understanding potential issues with integer overflow or performance impacts due to large numbers.
@@ -162,7 +162,7 @@ Context:
 """
 From the above problem, Here are the testcases I found:
 - General testcase: nums = [3, 7, 10, 4, 5], target = 14, the result is [2, 3]
-- Edge testcase: No edge testcase for this question since it has exactly one solution.
+- Edge testcase: No edge testcase for this problem since it has exactly one solution.
 
 """
 
@@ -180,7 +180,7 @@ Requirements:
 Action:
 """
 
-- Ignore the testcases I've provided. Instead, through reading the question, try to list one gereral testcase and one edge case.
+- Ignore the testcases I've provided. Instead, through reading the problem, try to list one gereral testcase and one edge case.
 - Compare the differences between your testcases and mine. Point out my mistakes or where I'm missing.
 
 """
