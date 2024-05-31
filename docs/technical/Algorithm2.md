@@ -11,6 +11,13 @@ After correctly understanding the problem, the next step is to analyze the probl
 
 ### Prompt
 
+:::info
+
+**You only need to change the text inside `Context`**
+
+:::
+
+
 <SimpleCodeDisplay type="code">
 Context:
 <br />
@@ -25,6 +32,7 @@ Here are the tags I found:
 - Two Pointers
 - Sorting
 - Segment Tree
+
 """
 
 ---

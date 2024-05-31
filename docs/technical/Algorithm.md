@@ -27,6 +27,13 @@ You can write down the key points of the problem when you are reading the proble
 
 ### Prompt
 
+:::info
+
+**You only need to change the text inside `Context`**
+
+:::
+
+
 <SimpleCodeDisplay type="code">
 Context:
 <br />

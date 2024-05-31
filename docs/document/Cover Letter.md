@@ -12,6 +12,12 @@ You can describe your background and let the AI Coach create a basic version for
 
 ### Prompt
 
+:::info
+
+**You only need to change the text inside `Context`**
+
+:::
+
 <SimpleCodeDisplay type="code">
 Context: 
 <br />

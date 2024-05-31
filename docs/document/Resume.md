@@ -32,6 +32,12 @@ If you don't have a resume yet, you can describe your background and let the AI 
 
 ### Prompt
 
+:::info
+
+**You only need to change the text inside `Context`**
+
+:::
+
 <SimpleCodeDisplay type="code">
 Context: 
 <br />
