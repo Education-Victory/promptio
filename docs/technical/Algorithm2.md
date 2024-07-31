@@ -5,9 +5,9 @@ import SimpleCodeDisplay from '../../src/components/SimpleCodeDisplay';
 
 # Algorithm Practice: Analyze
 
-## 1. Classify the problem
+## 1. Problem-solving strategies
 
-After correctly understanding the problem, the next step is to analyze the problem, with the first step of analysis being to categorize the problem.
+
 
 ### Prompt
 
@@ -24,34 +24,29 @@ Context:
 """
 Question Description:
 <br />
-During a city-wide festival, a ride-sharing app like Uber needs to adapt fares dynamically based on demand. The company employs an algorithm that searches for pairs of fare adjustments from different zones that sum up to a target value. This ensures the fares are attractive to riders while providing fair compensation to drivers. The input consists of an array of integers, each representing a potential fare adjustment for a specific zone, and a target integer that represents the desired total fare adjustment. Importantly, the algorithm stipulates that each adjustment can only be used once, and there is only one valid pair of indices in the array that sums to the target, guaranteeing a unique solution for each scenario. The output is the indices of the two zones whose adjustments meet the target, enabling real-time pricing adjustments in response to fluctuating demand during the event. This setup highlights the critical role of efficient algorithms in implementing effective dynamic pricing strategies in response to market conditions.
+There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array cardPoints.
+In one step, you can take one card from the beginning or from the end of the row. You have to take exactly k cards.
+Your score is the sum of the points of the cards you have taken.
+Given the integer array cardPoints and the integer k, return the maximum score you can obtain.
 
 <br />
-Here are the tags I found:
-- Array
-- Two Pointers
-- Sorting
-- Segment Tree
+
 
 """
 
 ---
-
-Requirements:
-
-- These tags can help solve the problem
-- Ignore tags that are too ambiguous, like array, string, math.
-- Use specific tags, such as Binary Search and combination permutation.
-
----
-
 
 Action:
 """
 
-- Ignore the tags I've provided. Instead, through reading the problem, try to list the three most likely tags.
-- Compare the differences between your tags and mine. Point out my mistakes or where I'm missing.
-- Tell me the advantages and disadvantages of different tags to solve this problem.
+Help me use the folling problem-solving strategy, ensuring each strategy is under 100 words and contains no code:
+
+1. Suggest a brute force solution.
+2. Provide three similar LeetCode questions.
+3. Create three simpler versions of the question for example constraint Relaxation.
+4. List some subproblems that seem already solved.
+5. Break down the main problem into subproblems.
+6. Use reverse thinking to propose a solution to a reverse version of the problem.
 
 """
 
@@ -61,39 +56,33 @@ Action:
 ### Response From AI Coach
 
 <SimpleCodeDisplay type="response">
-Based on the problem description you've provided, where the objective is to find two indices in an array whose values sum to a given target, let's identify the most suitable tags for solving this problem and compare them with the ones you've listed. I'll also discuss the advantages and disadvantages of each approach.
-<br />
-Most Appropriate Tags:
-- Two Pointers
-- Hash Table
-- Sorting
 
-Comparison with Your Tags:
-- Array: You mentioned ignoring this tag due to its ambiguity. While 'Array' is indeed a broad category, it is fundamentally relevant because the problem involves manipulating and searching within an array. However, it's true that more specific tags provide clearer guidance on the solution approach.
-- Two Pointers: You included this, and it's indeed very relevant. It involves using two indices to scan the array, typically after sorting, to find two numbers that sum to the target.
-- Sorting: You also included this tag, which is essential for the two-pointer approach as it relies on the array being sorted to function correctly.
-- Segment Tree: This is less relevant for the problem as described. Segment trees are useful for range queries and updates, which are not required here.
-- Hash Table: This was not included in your tags but is extremely relevant. It allows for efficient look-up and can solve the problem in linear time without needing to sort the array.
+### Brute Force Solution
+A brute force solution involves generating all possible combinations of taking \( k \) cards from the start and end of the array. For each combination, calculate the sum of points and keep track of the maximum score found. This approach has a time complexity of \( O(n^k) \), where \( n \) is the number of cards.
+<br/>
+### Similar LeetCode Questions
+1. **LeetCode 1006**: Clumsy Factorial
+2. **LeetCode 1234**: Replace the Substring for Balanced String
+3. **LeetCode 1423**: Maximum Points You Can Obtain from Cards
 
-Advantages and Disadvantages of Each Tag:
-<br />
-Two Pointers
-- Advantages: 1) Efficient for sorted arrays (O(n) time complexity after sorting).  2) Intuitive and easy to implement once the array is sorted.
-- Disadvantages: 1) Requires the array to be sorted first, which incurs an O(n log n) time complexity. 2) Not suitable for unsorted arrays without prior sorting.
+### Simpler Versions
+1. Take only one card (k=1).
+2. All cards have the same point value.
+3. You can take cards from only one end (either left or right).
 
-Hash Table
-    - Advantages: 1) Very fast (O(n) time complexity), as it allows checking if the complement of the current element (target - current element) exists in the table.  2) Does not require sorting.
-    - Disadvantages: 1) Uses extra space (O(n) space complexity). 2) Care must be taken to handle duplicates and ensure that the same element is not used twice unless explicitly allowed.
+### Subproblems Already Solved
+1. Finding the maximum sum of a subarray.
+2. Sliding window techniques for maximum sums.
+3. Dynamic programming for optimal substructure problems.
 
-Sorting
-   - Advantages: 1) Facilitates the use of the two-pointer technique. 2) Helps in other types of problems too, like binary search.
-    - Disadvantages: 1) Time complexity of O(n log n) might not be optimal for all scenarios. 2) Only useful as a preliminary step for other techniques like two pointers or binary search.
+### Breakdown of Main Problem into Subproblems
+1. Calculate the maximum sum of points from the first \( k \) cards.
+2. Calculate the maximum sum of points from the last \( k \) cards.
+3. Combine results from both ends while ensuring exactly \( k \) cards are taken.
 
-Segment Tree
-    - Advantages: Excellent for range queries and updates.
-    - Disadvantages: 1) Overkill for problems simply requiring pair finding. 2) Complex to implement and understand compared to other methods.
+### Reverse Thinking Solution
+Consider the problem of minimizing the points from the remaining cards after taking \( k \). Calculate the sum of points from all cards and subtract the minimum sum of the \( n-k \) cards left. This approach efficiently finds the maximum score by focusing on minimizing what remains.
 
-In summary, while your tags mostly align with effective strategies for solving the problem, incorporating the Hash Table tag would offer a more direct and efficient approach, especially when sorting is not desirable or feasible. Each method has its own set of advantages and is best chosen based on specific problem constraints and requirements.
 </SimpleCodeDisplay>
 
 ## 2. Ask for hint
